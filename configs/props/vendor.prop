@@ -226,6 +226,9 @@ ro.vendor.radio.ims_version=AT4.3.1_IR92_V11.0
 # Incremental FS
 ro.incremental.enable=true
 
+# LMK
+ro.lmk.filecache_min_kb=153600
+
 # Media
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
