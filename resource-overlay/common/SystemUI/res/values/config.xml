@@ -47,4 +47,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
  <!-- Preferred max refresh rate at AOD & Ambient Display, if supported by the display. -->
     <integer name="config_aodMaxRefreshRate">60</integer>
+
+    <!-- Show the network traffic monitor on statusbar even if the device has a notch -->
+    <bool name="config_forceShowNetworkTrafficOnStatusBar">true</bool>
+
 </resources>
