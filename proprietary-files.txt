@@ -844,6 +844,7 @@ system/framework/moto-core_services.jar
 system/framework/moto-settings.jar
 system_ext/bin/motsettings
 -system_ext/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk
+vendor/bin/motobox
 vendor/etc/vhw.xml
 
 # OMX
