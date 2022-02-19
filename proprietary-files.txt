@@ -1317,7 +1317,6 @@ vendor/etc/sensors/config/sns_wrist_pedo.json
 vendor/etc/sensors/config/stk3a5x_0.json
 vendor/etc/sensors/config/stk3a5x_0_DVT1.json
 vendor/etc/sensors/config/stk3a5x_0_DVT2.json
-vendor/etc/sensors/hals.conf
 vendor/etc/sensors/proto/descriptor.proto
 vendor/etc/sensors/proto/mot_barocal.proto
 vendor/etc/sensors/proto/mot_camgest.proto
