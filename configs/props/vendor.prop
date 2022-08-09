@@ -189,7 +189,6 @@ persist.sys.fuse.passthrough.enable=true
 vendor.gatekeeper.disable_spu=true
 
 # Graphics
-debug.sf.latch_unsignaled=1
 debug.sf.predict_hwc_composition_strategy=0
 ro.surface_flinger.set_idle_timer_ms=250
 ro.surface_flinger.set_touch_timer_ms=1000
@@ -197,7 +196,6 @@ ro.surface_flinger.use_smart_90_for_video=true
 vendor.display.disable_dynamic_sf_idle=1
 vendor.display.idle_time=0
 vendor.hw.sf.IdleLazyResetThresholdT=1000
-debug.sf.disable_backpressure=1
 debug.renderengine.backend=skiavkthreaded
 debug.sf.disable_client_composition_cache=1
 debug.sf.disable_elapsetime_if_has_virtual=1
@@ -207,7 +205,6 @@ debug.sf.high_fps_early_phase_offset_ns=-4000000
 debug.sf.high_fps_late_app_phase_offset_ns=1000000
 debug.sf.high_fps_late_sf_phase_offset_ns=-2000000
 debug.sf.hw=0
-debug.sf.latch_unsignaled=1
 debug.sf.predict_hwc_composition_strategy=0
 debug.sf.treat_170m_as_sRGB=1
 persist.demo.hdmirotationlock=false
