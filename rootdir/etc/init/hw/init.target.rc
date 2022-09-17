@@ -37,6 +37,9 @@ on early-init
     setprop ro.soc.model ${ro.vendor.qti.soc_model}
     wait /sys/devices/soc0/soc_id
 
+    # Start audio adsp rpc daemon at early init stage
+    start vendor.audioadsprpcd_audiopd
+
 on init
     # Scheduler uclamp
     mkdir /dev/cpuctl/foreground
