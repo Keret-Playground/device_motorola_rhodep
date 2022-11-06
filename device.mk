@@ -36,6 +36,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderResRhodep \
     SystemUIResRhodep
 
+TARGET_INCLUDE_OLD_WALLPAPERS := true
+
 # A/B
 # Inherit virtual_ab_ota product
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota.mk)
