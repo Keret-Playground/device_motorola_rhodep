@@ -268,6 +268,7 @@ ro.lmk.kill_heaviest_task=false
 # Media
 debug.stagefright.ccodec=4
 debug.stagefright.omx_default_rank=0
+media.stagefright.thumbnail.prefer_hw_codecs=true
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 persist.mm.enable.prefetch=true
 
