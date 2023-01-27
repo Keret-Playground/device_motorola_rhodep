@@ -142,6 +142,7 @@ echo 20000000 > /proc/sys/kernel/sched_task_unfilter_period
 echo 0-5 > /dev/cpuset/background/cpus
 echo 0-3 > /dev/cpuset/restricted/cpus
 echo 0-5 > /dev/cpuset/system-background/cpus
+echo 0-6 > /dev/cpuset/foreground/cpus
 
 # Turn off scheduler boost at the end
 echo 0 > /proc/sys/kernel/sched_boost
