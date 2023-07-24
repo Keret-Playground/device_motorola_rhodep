@@ -39,3 +39,5 @@ allow init sgdisk_exec:file getattr;
 allow init simpleperf_app_runner_exec:file getattr;
 allow init tcpdump_exec:file getattr;
 allow init vold_prepare_subdirs_exec:file getattr;
+
+allow init vendor_sysfs_scsi_host:file w_file_perms;
