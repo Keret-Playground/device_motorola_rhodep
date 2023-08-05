@@ -1,2 +1,12 @@
 # Audio
-audio.record.delay=180
+audio.record.delay=100
+audio.sys.mute.latency.factor=2
+audio.sys.noisy.broadcast.delay=500
+audio.sys.routing.latency=0
+audio.sys.offload.pstimeout.secs=3
+
+# Media
+media.stagefright.audio.deep=false
+
+# Theme
+ro.boot.theme=1
