@@ -349,6 +349,9 @@ ro.surface_flinger.force_hwc_copy_for_virtual_displays=true
 ro.surface_flinger.max_virtual_display_dimension=4096
 ro.surface_flinger.set_display_power_timer_ms=1000
 
+# Sensors
+persist.vendor.sensors.debug.hal=0
+
 # USB
 sys.usb.mtp.batchcancel=1
 vendor.usb.diag.func.name=ffs
