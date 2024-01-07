@@ -126,6 +126,9 @@ TARGET_USES_ION := true
 # DRM
 TARGET_ENABLE_MEDIADRM_64 := true
 
+# Disable Postrender Cleanup
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
