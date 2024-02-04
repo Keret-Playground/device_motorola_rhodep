@@ -64,6 +64,10 @@ function blob_fixup() {
         vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml)
             sed -ni '/default9/!p' "${2}"
             ;;
+        vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc)
+            sed -i "s/sec/samsung/g" "${2}"
+            sed -i "s/class hal/override\n    class hal/" "${2}"
+            ;;
     esac
 }
 

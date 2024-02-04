@@ -299,6 +299,12 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
 
+# NFC
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service.samsung \
+    com.android.nfc_extras \
+    Tag
+
 # OMX
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \

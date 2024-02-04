@@ -810,7 +810,7 @@ vendor/etc/media_profiles_blair.xml
 vendor/etc/media_profiles_holi.xml
 vendor/etc/media_profiles_vendor.xml
 
-# NFC - configs
+# NFC (Configs)
 vendor/etc/libnfc-mtp-SN100-UICC.conf
 vendor/etc/libnfc-mtp-SN100.conf
 vendor/etc/libnfc-mtp-SN100_38_4MHZ.conf
@@ -819,6 +819,17 @@ vendor/etc/libnfc-nxp-pnscr.conf
 vendor/etc/libnfc-qrd-SN100.conf
 vendor/etc/libnfc-qrd-SN100_38_4MHZ.conf
 vendor/etc/libnfc-sec-vendor.conf
+
+# NFC (Samsung)
+system_ext/lib/libnfc-sec.so
+system_ext/lib/libnfc_sec_jni.so
+system_ext/lib64/libnfc-sec.so
+system_ext/lib64/libnfc_sec_jni.so
+vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc
+vendor/etc/init/init.nfc.sec.rc
+vendor/etc/sec_s3nrn4v_hwreg.bin
+vendor/etc/sec_s3nrn4v_swreg.bin
+vendor/firmware/sec_s3nrn4v_firmware.bin
 
 # OEM
 vendor/etc/vhw.xml
