@@ -221,6 +221,7 @@ persist.vendor.ims.disableIMSLogs=1
 persist.vendor.ims.display_delay=40
 persist.vendor.ims.playout_delay=50
 persist.vendor.ims.vt.enableadb=1
+ro.vendor.radio.ims_version=AT4.3.1_IR92_V11.0
 
 # Incremental FS
 ro.incremental.enable=true
