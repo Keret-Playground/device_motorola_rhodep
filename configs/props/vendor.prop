@@ -145,6 +145,9 @@ camera.disable_zsl_mode=1
 persist.vendor.camera.privapp.list=org.codeaurora.snapcam,com.motorola.camera3,org.lineageos.aperture
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.motorola.camera3,org.lineageos.aperture
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
 # Crypto
 ro.crypto.dm_default_key.options_format.version=2
 ro.crypto.volume.metadata.method=dm-default-key
