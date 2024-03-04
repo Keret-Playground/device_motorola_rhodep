@@ -457,6 +457,10 @@ PRODUCT_PACKAGES += \
 
 # RIL
 PRODUCT_PACKAGES += \
+    android.hardware.secure_element@1.1.vendor \
+    android.hardware.secure_element@1.2.vendor
+
+PRODUCT_PACKAGES += \
     android.hardware.radio@1.5 \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio@1.6 \
@@ -526,6 +530,7 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils-prd \
     qti_telephony_utils.xml \
     qti_telephony_utils_prd.xml \
+    qti-telephony-common \
     telephony-ext
 
 PRODUCT_BOOT_JARS += \

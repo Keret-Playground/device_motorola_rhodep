@@ -1199,6 +1199,9 @@ system/framework/moto-telephony.jar:system_ext/framework/moto-telephony.jar
 -system_ext/priv-app/ims/ims.apk|25e2143c555eefa20eecde03b44ae81cd0eaed9b
 system_ext/lib64/libimsmedia_jni.so|5b34af19636863d22e5e7b4f20136564e6ee2222
 
+# RIL - from cypfq
+-system_ext/framework/qti-telephony-common.jar
+
 # RIL - IMS
 -system_ext/app/ImsRcsService/ImsRcsService.apk
 system_ext/etc/permissions/vendor.qti.ims.rcsservice.xml
