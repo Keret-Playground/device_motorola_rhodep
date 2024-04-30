@@ -88,6 +88,9 @@ on init
     symlink /dev/block/platform/soc/${ro.boot.bootdevice} /dev/block/bootdevice
     start logd
 
+    write /dev/sys/fs/by-name/userdata/data_io_flag 56
+    write /dev/sys/fs/by-name/userdata/node_io_flag 56
+
 on early-fs
     start vold
 
@@ -200,3 +203,7 @@ on property:sys.boot_completed=1
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_freq "0:1804800 1:1804800 2:1804800 3:1804800 4:2016000 5:2016000 6:2016000 7:2016000"
     write /sys/devices/system/cpu/cpu_boost/powerkey_input_boost_ms 2000
     write /sys/devices/system/cpu/cpu_boost/input_boost_ms 0
+
+    # Runtime fs tuning
+    write /dev/sys/fs/by-name/userdata/data_io_flag 8
+    write /dev/sys/fs/by-name/userdata/node_io_flag 8
