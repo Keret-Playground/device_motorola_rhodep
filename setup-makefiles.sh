@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=sm6375-common
+DEVICE=rhodep
 VENDOR=motorola
 
 # Load extract_utils and do some sanity checks
@@ -31,11 +31,6 @@ setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 write_headers
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
-
-# Include IR blobs if needed
-printf "\n%s\n" "ifeq (\$(TARGET_HAS_FM),true)" >> "${PRODUCTMK}"
-write_makefiles "${MY_DIR}/proprietary-files-fm.txt" true
-printf "%s\n" "endif" >> "${PRODUCTMK}"
 
 # Finish
 write_footers
