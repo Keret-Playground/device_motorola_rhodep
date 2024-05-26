@@ -906,13 +906,7 @@ vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/bin/poweropt-service
 vendor/etc/init/poweropt-service.rc
 vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
-vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/commonsysnodesconfigs.xml
-vendor/etc/perf/perfboostsconfig.xml
-vendor/etc/perf/perfconfigstore.xml
-vendor/etc/perf/targetconfig.xml
-vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/powerhint.xml
 vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
 vendor/lib/libperfioctl.so
