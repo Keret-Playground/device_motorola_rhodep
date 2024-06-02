@@ -62,7 +62,7 @@ function blob_fixup() {
             sed -i "s#/system/#/system_ext/#" "${2}"
             ;;
         vendor/etc/vintf/manifest/vendor.dolby.media.c2@1.0-service.xml)
-            sed -ni '/default9/!p' "${2}"
+            sed -ni '/default1/!p' "${2}"
             ;;
         vendor/etc/init/android.hardware.nfc@1.2-service.sec.rc)
             sed -i "s/sec/samsung/g" "${2}"
