@@ -178,7 +178,9 @@ PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
     libcamera2ndk_vendor \
+    libexif.vendor:64 \
     libgui_vendor \
+    libyuv.vendor:64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
 # Charger
@@ -487,8 +489,11 @@ PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle
 # QMI
 PRODUCT_PACKAGES += \
     libjson \
+    libjsoncpp.vendor \
+    libnetutils.vendor:64 \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
+    libsqlite.vendor:64 \
     libvndfwk_detect_jni.qti \
     libvndfwk_detect_jni.qti.vendor
 
@@ -521,6 +526,7 @@ PRODUCT_PACKAGES += \
     android.system.net.netd@1.1.vendor \
     libprotobuf-cpp-full \
     librmnetctl \
+    libsysutils.vendor \
     libxml2 \
     vendor.qti.hardware.systemhelperaidl-V1-ndk \
     vendor.qti.hardware.systemhelperaidl-V1-ndk.vendor
@@ -655,6 +661,7 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 PRODUCT_PACKAGES += \
     libavservices_minijail \
     libnl \
+    libpng.vendor \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
