@@ -16,6 +16,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_ven
 # Include debug tools
 $(call inherit-product-if-exists, hardware/samsung-ext/interfaces/debug-tools/debug.mk)
 
+# Sign Build
+-include vendor/lineage-priv/keys/keys.mk
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
