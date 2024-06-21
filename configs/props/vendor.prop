@@ -270,6 +270,9 @@ ro.nfc.port=I2C
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.2
+ro.vendor.perf.scroll_opt=true
+vendor.power.pasr.enabled=true
+vendor.pasr.activemode.enabled=true
 
 # QSPM
 ro.vendor.qspm.enable=true
