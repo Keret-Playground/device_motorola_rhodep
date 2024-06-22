@@ -39,8 +39,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     FrameworksResRhodep \
     LineageSystemUIRhodep \
+    LineageSettingsRhodep \
     SettingsProviderResRhodep \
-    SystemUIResRhodep
+    SystemUIResRhodep \
+    EuiccOverlayRhodep \
+    RegulatoryInfoOverlayRhodep
 
 TARGET_INCLUDE_OLD_WALLPAPERS := true
 
