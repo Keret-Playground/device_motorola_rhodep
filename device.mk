@@ -116,19 +116,27 @@ PRODUCT_PACKAGES += \
     audio.usb.default \
     liba2dpoffload \
     libaudiopreprocessing \
+    libaudioroute \
+    libbatterylistener \
     libbundlewrapper \
+    libcirrusspkrprot \
+    libcomprcapture \
     libdownmix \
     libdynproc \
     libeffectproxy \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
     libldnhncr \
+    libqcompostprocbundle \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libreverbwrapper \
-    libvisualizer \
-    libhdmiedid \
-    libhfp \
     libsndmonitor \
     libspkrprot \
+    libtinycompress \
+    libvisualizer \
+    libvolumelistener \
     sound_trigger.primary.holi
 
 PRODUCT_COPY_FILES += \
@@ -181,6 +189,7 @@ PRODUCT_PACKAGES += \
     libcamera2ndk_vendor \
     libexif.vendor:64 \
     libgui_vendor \
+    libgui_shim_vendor \
     libyuv.vendor:64 \
     vendor.qti.hardware.camera.postproc@1.0.vendor
 
@@ -399,13 +408,16 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcodec2_hidl@1.0.vendor \
     libcodec2_vndk.vendor \
+    libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx.vendor \
+    libstagefright_softomx_plugin.vendor
 
 # Partitions
 PRODUCT_BUILD_SUPER_PARTITION := false
@@ -486,6 +498,7 @@ PRODUCT_DEXPREOPT_SPEED_APPS += SystemUIGoogle
 PRODUCT_PACKAGES += \
     libjson \
     libjsoncpp.vendor \
+    libcurl.vendor \
     libnetutils.vendor:64 \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.vendor \
@@ -520,6 +533,7 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.hostapd@1.0.vendor \
     android.system.net.netd@1.1 \
     android.system.net.netd@1.1.vendor \
+    libion.vendor \
     libprotobuf-cpp-full \
     librmnetctl \
     libsysutils.vendor \
