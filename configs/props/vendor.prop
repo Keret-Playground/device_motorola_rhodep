@@ -254,6 +254,10 @@ vendor.gralloc.disable_ubwc=0
 vendor.gralloc.use_dma_buf_heaps=1
 vendor.hw.sf.IdleLazyResetThresholdT=1000
 
+# HWUI
+debug.hwui.use_hint_manager=true
+debug.hwui.target_cpu_time_percent=30
+
 # IMS
 persist.vendor.ims.cam_sensor_delay=20
 persist.vendor.ims.disableDebugDataPathLogs=1
