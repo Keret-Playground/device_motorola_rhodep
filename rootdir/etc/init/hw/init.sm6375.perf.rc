@@ -55,9 +55,6 @@ on property:vendor.post_boot.parsed=1
     write /dev/cpuctl/rt/cpu.shares 20480
     write /dev/cpuctl/top-app/cpu.shares 20480
 
-    # Disable multiple kswapd threads
-    write /proc/sys/vm/kswapd_threads 1
-
     # Enable suspend to RAM
     write /sys/power/mem_sleep "deep"
 
@@ -68,9 +65,6 @@ on property:vendor.post_boot.parsed=1
     write /proc/irq/222/smp_affinity_list 1
 
     # Override readahead to 128KiB
-    write /sys/block/dm-0/queue/read_ahead_kb 128
-    write /sys/block/dm-1/queue/read_ahead_kb 128
-    write /sys/block/dm-2/queue/read_ahead_kb 128
     write /sys/block/dm-3/queue/read_ahead_kb 128
     write /sys/block/dm-4/queue/read_ahead_kb 128
     write /sys/block/dm-5/queue/read_ahead_kb 128
