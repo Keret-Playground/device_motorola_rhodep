@@ -274,6 +274,11 @@ ro.vendor.radio.ims_version=AT4.3.1_IR92_V11.0
 # Incremental FS
 ro.incremental.enable=true
 
+# LMK
+ro.lmk.filecache_min_kb=153600
+ro.lmk.kill_timeout_ms=50
+ro.lmk.stall_limit_critical=40
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=2.3
