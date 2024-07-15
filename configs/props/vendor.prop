@@ -260,6 +260,7 @@ vendor.hw.sf.IdleLazyResetThresholdT=1000
 # HWUI
 debug.hwui.use_hint_manager=true
 debug.hwui.target_cpu_time_percent=30
+debug.sdm.support_writeback=0
 
 # IMS
 persist.vendor.ims.cam_sensor_delay=20
