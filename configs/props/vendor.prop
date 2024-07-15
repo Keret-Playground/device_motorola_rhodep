@@ -194,6 +194,7 @@ vendor.display.target.version=2
 vendor.display.thermal.version=1
 vendor.display.use_smooth_motion=1
 vendor.display.perf_hint_window=50
+vendor.display.vds_allow_hwc=1
 
 # DPM
 persist.vendor.dpm.feature=11
@@ -230,6 +231,7 @@ debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.enable_gl_backpressure=1
 debug.sf.use_phase_offsets_as_durations=1
 debug.sf.enable_egl_image_tracker=0
+debug.performance.tuning=1
 debug.sf.late.app.duration=13666666
 debug.sf.early.app.duration=13666666
 debug.sf.earlyGl.app.duration=13666666
@@ -253,9 +255,11 @@ persist.sys.sf.native_mode=1
 ro.hardware.egl=adreno
 ro.hardware.vulkan=adreno
 ro.opengles.version=196610
+vendor.gralloc.enable_fb_ubwc=1
 vendor.gralloc.disable_ubwc=0
 vendor.gralloc.use_dma_buf_heaps=1
 vendor.hw.sf.IdleLazyResetThresholdT=1000
+vendor.gralloc.secure_preview_buffer_format=420_sp
 
 # HWUI
 debug.hwui.use_hint_manager=true
