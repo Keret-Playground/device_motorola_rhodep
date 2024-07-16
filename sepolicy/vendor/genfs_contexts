@@ -83,6 +83,3 @@ genfscon sysfs /devices/platform/soc/soc:mmi,discrete-charging/power_supply/dc/w
 genfscon sysfs /devices/platform/soc/soc:mmi,discrete-charging/power_supply/pc_port/wakeup         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:mmi,discrete-charging/power_supply/usb/wakeup             u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/soc/soc:mmi_chrg_manager/power_supply/mmi_chrg_manager/wakeup     u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/dummy_hcd.0/usb1/wakeup                                           u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd-secure/wakeup                                  u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/virtual/fastrpc/adsprpc-smd/wakeup                                         u:object_r:sysfs_wakeup:s0
