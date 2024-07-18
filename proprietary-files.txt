@@ -768,17 +768,6 @@ vendor/lib64/hw/vulkan.adreno.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# IO prefetcher - from fogos
-system_ext/lib/vendor.qti.hardware.iop@2.0.so
-system_ext/lib64/vendor.qti.hardware.iop@2.0.so
-vendor/lib/libqti-iopd-client.so
-vendor/lib/vendor.qti.hardware.iop@1.0.so
-vendor/lib/vendor.qti.hardware.iop@2.0.so
-vendor/lib64/libqti-iopd-client.so
-vendor/lib64/libqti-iopd.so
-vendor/lib64/vendor.qti.hardware.iop@1.0.so
-vendor/lib64/vendor.qti.hardware.iop@2.0.so
-
 # IRQ balancer - from fogos
 vendor/bin/msm_irqbalance
 
