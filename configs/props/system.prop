@@ -70,7 +70,7 @@ media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
 
 # Memory
-persist.device_config.mglru_native.lru_gen_config=all
+persist.device_config.mglru_native.lru_gen_config=core
 
 # NFC
 ro.nfc.port=I2C
