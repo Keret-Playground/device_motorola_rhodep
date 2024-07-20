@@ -200,6 +200,7 @@ BOARD_ROOT_EXTRA_SYMLINKS := \
     /vendor/fsg:/fsg
 
 # SELinux
+include device/lineage/sepolicy/libperfmgr/sepolicy.mk
 -include hardware/samsung-ext/interfaces/sepolicy/SEPolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
