@@ -146,10 +146,13 @@ on property:sys.boot_completed=1
 on boot && property:persist.vendor.usb.controller.default=*
     setprop vendor.usb.controller ${persist.vendor.usb.controller.default}
 
+on property:sys.boot_completed=1
+    # Enable PowerHAL hint processing
+    setprop vendor.powerhal.init 1
+
 on charger
     mount_all /vendor/etc/charger_fstab.qti --early
     write /sys/kernel/boot_adsp/boot 1
-    #restart charger after ADSP is out of reset
     restart charger
     start vendor.power_off_alarm
     setprop sys.usb.controller 4e00000.dwc3
