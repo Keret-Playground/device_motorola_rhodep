@@ -43,7 +43,8 @@ PRODUCT_PACKAGES += \
     SettingsProviderResRhodep \
     SystemUIResRhodep \
     EuiccOverlayRhodep \
-    RegulatoryInfoOverlayRhodep
+    RegulatoryInfoOverlayRhodep \
+    NoCutoutOverlayRhodep
 
 TARGET_INCLUDE_OLD_WALLPAPERS := true
 
