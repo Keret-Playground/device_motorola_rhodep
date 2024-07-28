@@ -29,6 +29,17 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 BUILD_FINGERPRINT := motorola/rhodep_g/rhodep:13/T1SUS33.1-124-6-9/aafd64:user/release-keys
 
-# MindTheGapps
-TARGET_IS_GROUPER := true
-$(call inherit-product-if-exists, vendor/gapps/arm64/arm64-vendor.mk)
+# RisingOS Stuffs
+RISING_BUILDTYPE := OFFICIAL
+RISING_MAINTAINER := Notkerd
+RISING_CHIPSET := SM6375
+RISING_DEVICE := rhodep
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    RISING_CHIPSET="Snapdragon 695 5G" \
+    RISING_MAINTAINER=Notkerd \
+    RISING_DEVICE="rhodep"
+
+WITH_GMS := true
+TARGET_CORE_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
