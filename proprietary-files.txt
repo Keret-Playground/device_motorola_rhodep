@@ -311,7 +311,7 @@ vendor/lib64/com.qti.feature2.rtmcx.so
 vendor/lib64/com.qti.feature2.serializer.so
 vendor/lib64/com.qti.feature2.swmf.so
 
-# Camera (OIS) - from rhodep
+# Camera (OIS)
 vendor/firmware/mot_dw9781c.prog
 
 # Camera (sensor)
@@ -811,7 +811,7 @@ vendor/lib64/libgcs.so
 vendor/lib64/liblistensoundmodel2.so
 vendor/lib64/libmulawdec.so
 
-# Media
+# Media - from rhodep_g-user 11 S1SUS32.73-112-2-7 f83ae release-keys
 system_ext/lib/libmmosal.so
 system_ext/lib/libmmparser_lite.so
 system_ext/lib64/libmmosal.so
@@ -836,7 +836,7 @@ vendor/lib/libqcodec2_utils.so
 vendor/lib/libqcodec2_v4l2codec.so
 vendor/lib64/libmmosal.so
 
-# Media - configs
+# Media - configs - from rhodep_g-user 11 S1SUS32.73-112-2-7 f83ae release-keys
 vendor/etc/media_codecs.xml
 vendor/etc/media_codecs_blair.xml
 vendor/etc/media_codecs_c2.xml
@@ -955,7 +955,7 @@ system_ext/bin/motsettings
 vendor/bin/motobox
 vendor/etc/vhw.xml
 
-# OMX
+# OMX - from rhodep_g-user 11 S1SUS32.73-112-2-7 f83ae release-keys
 vendor/lib/libAlacSwDec.so
 vendor/lib/libApeSwDec.so
 vendor/lib/libFlacSwDec.so
