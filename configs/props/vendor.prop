@@ -31,8 +31,6 @@ ro.vendor.audio.sdk.fluence.nn.enabled=true
 ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 vendor.audio.dolby.ds2.enabled=false
-vendor.audio.dolby.ds2.hardbypass=false
-vendor.audio.enable.mirrorlink=false
 vendor.audio.flac.sw.decoder.24bit=true
 vendor.audio.hal.boot.timeout.ms=20000
 vendor.audio.hal.output.suspend.supported=true
@@ -239,7 +237,6 @@ debug.sf.early.sf.duration=15666666
 debug.sf.earlyGl.sf.duration=15666666
 debug.sf.late.sf.duration=15666666
 debug.sf.hw=0
-debug.sf.latch_unsignaled=1
 debug.mdpcomp.logs=0
 debug.sf.scroll_boost_refreshrate=120
 debug.sf.touch_boost_refreshrate=120
@@ -294,9 +291,6 @@ ro.vendor.qspm.enable=true
 vendor.pasr.activemode.enabled=false
 vendor.perf.framepacing.enable=1
 vendor.power.pasr.enabled=false
-
-# QSPM
-ro.vendor.qspm.enable=true
 
 # Qtee
 persist.vendor.qteeconnector.retrying_interval=30
